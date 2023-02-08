@@ -2,3 +2,4 @@
 venv
 **/*.pyc
 
+envs/.env_db
