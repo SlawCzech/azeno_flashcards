@@ -36,6 +36,7 @@ class Feature(models.Model):
     tags = models.ManyToManyField('Tag', related_name='%(class)s')
 
     is_active = models.BooleanField(default=True)
+    is_public = models.BooleanField(default=True)
 
     class Meta:
         abstract = True
@@ -44,6 +45,7 @@ class Feature(models.Model):
 class Deck(Feature):
     name = models.CharField(max_length=100)
     description = models.TextField()
+
 
     def __str__(self):
         return self.name
