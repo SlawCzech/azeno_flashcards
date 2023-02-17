@@ -23,7 +23,7 @@
    4. unit tests -> pytest
 6. Tworzymy lokalny router
    1. w pliku urls.py tworzymy urlpatterns lub router
-   2. podpisany lokalne urls do globalnych urls -> config/urls.py
+   2. podpinamy lokalne urls do globalnych urls -> config/urls.py
    3. unit tests -> pytest (też do widoku)
 7. Sprawdzenie dokumentacji open API (Swagger)
 8. Postman i tworzenie kolekcji
